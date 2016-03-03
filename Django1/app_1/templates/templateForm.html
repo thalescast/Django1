@@ -1,0 +1,148 @@
+
+<script src="https://cdn.jotfor.ms/static/prototype.forms.js" type="text/javascript"></script>
+<script src="https://cdn.jotfor.ms/static/jotform.forms.js?3.3.11670" type="text/javascript"></script>
+<script type="text/javascript">
+   JotForm.init(function(){
+      setTimeout(function() {
+          $('input_16').hint('ex: myname@example.com');
+       }, 20);
+	JotForm.clearFieldOnHide="disable";
+	JotForm.onSubmissionError="jumpToFirstError";
+   });
+</script>
+<link href="https://cdn.jotfor.ms/static/formCss.css?3.3.11670" rel="stylesheet" type="text/css" />
+<link type="text/css" rel="stylesheet" href="https://cdn.jotfor.ms/css/styles/nova.css?3.3.11670" />
+<link type="text/css" media="print" rel="stylesheet" href="https://cdn.jotfor.ms/css/printForm.css?3.3.11670" />
+<style type="text/css">
+    .form-label-left{
+        width:150px !important;
+    }
+    .form-line{
+        padding-top:12px;
+        padding-bottom:12px;
+    }
+    .form-label-right{
+        width:150px !important;
+    }
+    .form-all{
+        width:590px;
+        color:#555 !important;
+        font-family:'Tahoma';
+        font-size:14px;
+    }
+    .form-radio-item label, .form-checkbox-item label, .form-grading-label, .form-header{
+        color: #555;
+    }
+
+</style>
+
+<link type="text/css" rel="stylesheet" href="https://cdn.jotfor.ms/css/styles/buttons/form-submit-button-light_rounded.css?3.3.11670"/>
+<form class="jotform-form" action="https://submit.jotformz.com/submit/60617221915653/" method="post" name="form_60617221915653" id="60617221915653" accept-charset="utf-8">
+  <input type="hidden" name="formID" value="60617221915653" />
+  <div class="form-all">
+    <ul class="form-section page-section">
+      <li id="cid_24" class="form-input-wide" data-type="control_head">
+        <div class="form-header-group">
+          <div class="header-text httal htvam">
+            <h2 id="header_24" class="form-header">
+              Contact Form
+            </h2>
+          </div>
+        </div>
+      </li>
+      <li class="form-line jf-required" data-type="control_fullname" id="id_15">
+        <label class="form-label form-label-top form-label-auto" id="label_15" for="input_15">
+          Your Name
+          <span class="form-required">
+            *
+          </span>
+        </label>
+        <div id="cid_15" class="form-input-wide jf-required">
+          <span class="form-sub-label-container" style="vertical-align: top">
+            <input class="form-textbox validate[required]" type="text" size="10" name="q15_yourName[first]" id="first_15" />
+            <label class="form-sub-label" for="first_15" id="sublabel_first" style="min-height: 13px;"> First Name </label>
+          </span>
+          <span class="form-sub-label-container" style="vertical-align: top">
+            <input class="form-textbox validate[required]" type="text" size="15" name="q15_yourName[last]" id="last_15" />
+            <label class="form-sub-label" for="last_15" id="sublabel_last" style="min-height: 13px;"> Last Name </label>
+          </span>
+        </div>
+      </li>
+      <li class="form-line" data-type="control_email" id="id_16">
+        <label class="form-label form-label-top form-label-auto" id="label_16" for="input_16"> Your E-mail Address </label>
+        <div id="cid_16" class="form-input-wide jf-required">
+          <input type="email" class=" form-textbox validate[Email]" id="input_16" name="q16_yourEmail16" size="32" value="" />
+        </div>
+      </li>
+      <li class="form-line" data-type="control_phone" id="id_22">
+        <label class="form-label form-label-top form-label-auto" id="label_22" for="input_22"> Phone Number </label>
+        <div id="cid_22" class="form-input-wide jf-required">
+          <span class="form-sub-label-container" style="vertical-align: top">
+            <input class="form-textbox" type="tel" name="q22_phoneNumber22[area]" id="input_22_area" size="3">
+            <span class="phone-separate">
+              &nbsp;-
+            </span>
+            <label class="form-sub-label" for="input_22_area" id="sublabel_area" style="min-height: 13px;"> Area Code </label>
+          </span>
+          <span class="form-sub-label-container" style="vertical-align: top">
+            <input class="form-textbox" type="tel" name="q22_phoneNumber22[phone]" id="input_22_phone" size="8">
+            <label class="form-sub-label" for="input_22_phone" id="sublabel_phone" style="min-height: 13px;"> Phone Number </label>
+          </span>
+        </div>
+      </li>
+      <li class="form-line jf-required" data-type="control_textarea" id="id_17">
+        <label class="form-label form-label-top form-label-auto" id="label_17" for="input_17">
+          Your Message
+          <span class="form-required">
+            *
+          </span>
+        </label>
+        <div id="cid_17" class="form-input-wide jf-required">
+          <textarea id="input_17" class="form-textarea validate[required]" name="q17_yourMessage" cols="25" rows="3"></textarea>
+        </div>
+      </li>
+      <li class="form-line jf-required" data-type="control_radio" id="id_23">
+        <label class="form-label form-label-top form-label-auto" id="label_23" for="input_23">
+          Prefered Contact?
+          <span class="form-required">
+            *
+          </span>
+        </label>
+        <div id="cid_23" class="form-input-wide jf-required">
+          <div class="form-single-column">
+            <span class="form-radio-item" style="clear:left;">
+              <span class="dragger-item">
+              </span>
+              <input type="radio" class="form-radio validate[required]" id="input_23_0" name="q23_preferedContact23" value="E-mail" />
+              <label id="label_input_23_0" for="input_23_0"> E-mail </label>
+            </span>
+            <span class="form-radio-item" style="clear:left;">
+              <span class="dragger-item">
+              </span>
+              <input type="radio" class="form-radio validate[required]" id="input_23_1" name="q23_preferedContact23" value="Phone" />
+              <label id="label_input_23_1" for="input_23_1"> Phone </label>
+            </span>
+          </div>
+        </div>
+      </li>
+      <li class="form-line" data-type="control_button" id="id_14">
+        <div id="cid_14" class="form-input-wide">
+          <div style="text-align:center" class="form-buttons-wrapper">
+            <button id="input_14" type="submit" class="form-submit-button form-submit-button-light_rounded">
+              Submit
+            </button>
+          </div>
+        </div>
+      </li>
+      <li style="display:none">
+        Should be Empty:
+        <input type="text" name="website" value="" />
+      </li>
+    </ul>
+  </div>
+  <input type="hidden" id="simple_spc" name="simple_spc" value="60617221915653" />
+  <script type="text/javascript">
+  document.getElementById("si" + "mple" + "_spc").value = "60617221915653-60617221915653";
+  </script>
+</form>
+<script type="text/javascript">JotForm.ownerView=true;</script>
