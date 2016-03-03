@@ -19,5 +19,6 @@ from django.contrib import admin
 urlpatterns = [
     #Acrescentando a URL sem precisar de criar um arquivo na minha aplicação
     url(r'^$','app_1.views.views_1', name='views_1'),
+   # url(r'^form/','app_1.views.views_2', name='views_2'),
     url(r'^admin/', admin.site.urls),
 ]
